@@ -12,9 +12,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(spec)/})
   gem.name          = "rollbar-mongoid-extension"
   gem.require_paths = ["lib"]
-  gem.version       = "0.3"
+  gem.version       = "0.4"
 
   gem.add_runtime_dependency 'rollbar', '~> 1.5', '>= 0.10.7'
-  gem.add_runtime_dependency 'mongoid', '~> 4'
+  gem.add_runtime_dependency 'mongoid', '~> 5'
   gem.add_runtime_dependency 'activesupport', '~> 4'
 end
